@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.ToDo_box{
+    width: 600px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.input_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+.input_box input{
+    height: 30px;
+    width: 450px;
+    padding: 5px;
+    border-radius: 0;
+    border: 1px solid gray;
+    outline: none;
+}
+input:target{
+    border: none;
+}
+button{
+    background-color: red;
+    border: none;
+    color: white;
+}
+button i{
+    font-size: 39px;
+}
+ul{
+    padding: 1rem 3rem;
+}
+ul .li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    padding: 1rem 1rem;
+    font-size: 17px;
+    margin-top: 10px
+}
+ul .li i{
+    color: red;
+}
